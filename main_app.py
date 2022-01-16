@@ -46,7 +46,7 @@ if city_text:
                                      '%Y-%m-%d %H:%M:%S')
             utc1 = utc1.replace(tzinfo=from_zone)
             local1 = utc1.astimezone(to_zone)
-            st.markdown("Sunrise (Timing according to your current location): ")
+            st.markdown("Sunrise: ")
             st.markdown(str(local1))
             st.image("https://media0.giphy.com/media/C3FangwuYVrIHPp0EB/giphy.gif", width=110)
 
@@ -124,7 +124,7 @@ if city_text:
                                      '%Y-%m-%d %H:%M:%S')
             utc2 = utc2.replace(tzinfo=from_zone)
             local2 = utc2.astimezone(to_zone)
-            st.markdown("Sunset (Timing according to your current location): ")
+            st.markdown("Sunset: ")
             st.markdown(str(local2))
             st.image("https://media1.giphy.com/media/J7CRqi4scgEaQ/giphy.gif", width=94)
 
@@ -271,7 +271,7 @@ if city_text:
 
 st.sidebar.write("Building a real-time weather forecasting app using OpenWeather API with visualisations to showcase the weather forecast of the city that the user has searched.")
 st.sidebar.write("OpenWeather API Documentation: [https://openweathermap.org/current] (https://openweathermap.org/current)")
-st.sidebar.write("Limitation: The timings of the sunrise and sunset are according to user's current location of using this app and not according to the city the user has searched.")
+st.sidebar.write("Limitation: The timings of the sunrise and sunset are in UTC format and not according to the city the user has searched.")
 st.sidebar.write("Have fun using this app to check the weather forecast before leaving your house!")
 st.sidebar.subheader("Jim Meng Kok")
 st.sidebar.markdown('Please feel free to connect with me on LinkedIn: [www.linkedin.com/in/jimmengkok](www.linkedin.com/in/jimmengkok)')
