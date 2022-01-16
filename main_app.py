@@ -194,9 +194,9 @@ if city_text:
             st_echarts(options=options_2, width="100%", key=4)
 
         with home3:
-            m = folium.Map(location=[weather_data['coord']['lat'], weather_data['coord']['lon']], width = 250, height = 168) # width = 443 225 height = 143 168 zoom_start=12
+            m = folium.Map(location=[weather_data['coord']['lat'], weather_data['coord']['lon']], width = 250, height = 143) # width = 443 225 height = 143 168 zoom_start=12
             folium.Marker([weather_data['coord']['lat'], weather_data['coord']['lon']], popup=city_text).add_to(m)
-            folium_static(m, width = 250, height = 168)
+            folium_static(m, width = 250, height = 143)
 
             min_temp = weather_data['main']['temp_min']
             min_temp_temp = convert_to_celcius(min_temp)
