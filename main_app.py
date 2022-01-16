@@ -14,7 +14,7 @@ API_Key = "79474694d5c7f4cf4a1d2ee01d4d90fd"
 
 st.set_page_config(layout="wide")
 
-st.title("Real Time Weather Forecast Lookup App")
+st.title("Real-Time Weather Forecast Lookup App")
 st.image('johannes-plenio-600dw3-1rv4-unsplash.jpg')
 '''
 *Top Photo by Johannes Plenio on Unsplash*
