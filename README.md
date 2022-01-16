@@ -1,5 +1,5 @@
 # Weather Forecasting App
-An application that showcases a dashboard of visualisations (i.e. map and gauges) which allow users to understand the weather forecast of the particular city they have searched for.
+An application that showcases a dashboard of visualisations (i.e. maps and gauges) which allow users to understand the weather forecast of the particular city they have searched for.
 
 Libraries used: echarts (gauges) and folium (map)
 
