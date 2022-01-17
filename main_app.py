@@ -32,6 +32,11 @@ if city_text:
         weather_url = f"http://api.openweathermap.org/data/2.5/weather?q={city_text}&appid="
         final_url = weather_url + API_Key
         weather_data = requests.get(final_url).json()
+        
+        weather_id = weather_data['weather'][0]['icon']
+        weather_desc = weather_data['weather'][0]['description']
+        st.markdown(str(weather_desc).title())
+        st.image("http://openweathermap.org/img/wn/" + str(weather_id) + "@2x.png", width=110)
 
         home1,home2,home3 = st.beta_columns(3)
 
