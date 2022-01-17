@@ -5,4 +5,4 @@ Libraries used: echarts (gauges) and folium (map)
 
 Check out my app: https://share.streamlit.io/jimmeng-kok-2017/weather_forecasting_app/main/main_app.py
 
-![alt text](https://github.com/jimmeng-kok-2017/weather_forecasting_app/blob/main/dashboard_sample.png?raw=true)
+![alt text](https://github.com/jimmeng-kok-2017/weather_forecasting_app/blob/main/dashboard_sample.PNG?raw=true)
