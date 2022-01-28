@@ -1,4 +1,4 @@
-# Weather Forecasting App
+# Weather Forecasting App [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_red.svg)](https://share.streamlit.io/jimmeng-kok-2017/weather_forecasting_app/main/main_app.py)
 An application that showcases a dashboard of visualisations (i.e. maps and gauges) which allow users to understand the weather forecast of the particular city they have searched for.
 
 Libraries used: echarts (gauges) and folium (map)
